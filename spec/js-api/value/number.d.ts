@@ -28,7 +28,7 @@ export class SassNumber extends Value {
    */
   static withUnits(
     value: number,
-    options?: {
+    options: {
       numeratorUnits?: string[] | List<string>;
       denominatorUnits?: string[] | List<string>;
     }

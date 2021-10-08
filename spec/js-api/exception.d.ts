@@ -6,6 +6,8 @@ import {SourceSpan} from './logger';
  * argument verification errors.
  */
 export class Exception extends Error {
+  private constructor();
+
   /**
    * The compiler supplies this error message to the JS runtime. This should
    * contain the description of the Sass exception as well as human-friendly
